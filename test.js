@@ -2,6 +2,7 @@ describe('moduleLoadList', function () {
   'use strict';
 
   var assume = require('assume')
+    , mocha = require('mocha')
     , list = require('./');
 
   it('is exported as function', function () {
