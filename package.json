@@ -1,6 +1,6 @@
 {
   "name": "moduleloadlist",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A list of all internal and user defined modules that are loaded/required",
   "main": "index.js",
   "scripts": {

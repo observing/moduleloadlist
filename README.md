@@ -1,5 +1,12 @@
 # moduleLoadList
 
+[![Version npm][version]](http://browsenpm.org/package/moduleloadlist)[![Build Status][build]](https://travis-ci.org/observing/moduleloadlist)[![Dependencies][david]](https://david-dm.org/observing/moduleloadlist)[![Coverage Status][cover]](https://coveralls.io/r/observing/moduleloadlist?branch=master)
+
+[version]: http://img.shields.io/npm/v/moduleloadlist.svg?style=flat-square
+[build]: http://img.shields.io/travis/observing/moduleloadlist/master.svg?style=flat-square
+[david]: https://img.shields.io/david/observing/moduleloadlist.svg?style=flat-square
+[cover]: http://img.shields.io/coveralls/observing/moduleloadlist/master.svg?style=flat-square
+
 Return a list of modules, bindings and native modules that have currently been
 loaded in your application. This gives you a greater understanding of the
 complexity of your application and possibly some useful information for
