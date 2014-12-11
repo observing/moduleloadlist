@@ -24,7 +24,7 @@ module.exports = function moduleLoadList() {
       if (line.charAt(0) !== '.') line = './'+ line;
     }
 
-    line = line.split('/');
+    line = line.split('/').filter(Boolean);
     if (line[line.length - 1] === 'index') line.pop();
     if (!line.length) return;
 
