@@ -17,15 +17,17 @@ module.exports = function moduleLoadList() {
 
     line = line.split('.').shift();
 
-    if (~dependency) line = line.slice(dependency + 13);
-    else {
+    if (~dependency) {
+      line = line.slice(dependency + 13);
+    } else {
       line = path.relative(cwd, line);
       if (line.charAt(0) !== '.') line = './'+ line;
     }
 
     line = line.split('/');
     if (line[line.length - 1] === 'index') line.pop();
+    if (!line.length) return;
 
     return 'UserModule '+ line.join('/');
-  }));
+  })).filter(Boolean);
 };
