@@ -27,9 +27,9 @@
   },
   "homepage": "https://github.com/observing/moduleLoadList",
   "devDependencies": {
-    "assume": "0.0.x",
-    "istanbul": "0.3.x",
-    "mocha": "2.0.x",
-    "pre-commit": "0.0.x"
+    "assume": "~1.4.1",
+    "istanbul": "~0.4.5",
+    "mocha": "~3.1.2",
+    "pre-commit": "~1.1.3"
   }
 }
